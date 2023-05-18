@@ -130,9 +130,7 @@ p {
       padding-top: 200px;
       align-items: center;
       gap:70px;
-      font-size: 40px;
-  
-  
+      font-size: 40px;  
     }
   }
 
@@ -143,4 +141,8 @@ p {
 
   .greeating {
     text-align: center;
+    padding: 25px;
+    font-family:'Courier New', Courier, monospace;
+    font:bolder;
+    background-color: royalblue;
   }
