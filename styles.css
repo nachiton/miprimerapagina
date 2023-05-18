@@ -55,42 +55,36 @@ p {
     height: 50px;
     background-color: black;
   }
-  
-  
+    
   .navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
-  
-  
+    
   .brand {
     display: flex;
     align-items: center;
   }
-  
-  
+    
   li>a {
     padding: 8px 24px;
   }
-  
-  
+    
   li {
     list-style-type: none;
   }
-  
-  
+    
   a {
     color: white;
     text-decoration:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  
-  
+    
   .nav-links {
     display: flex;
     align-items: center;
-  }
-  
+  }  
   
   .button-menu-toggle {
     display: none;
@@ -100,13 +94,11 @@ p {
     .column {
       flex: 100%;
     }
-  
-  
+
     .nav-links {
       display: none;
     }
-  
-  
+
     .button-menu-toggle {
       display: block;
       background-color: white;
