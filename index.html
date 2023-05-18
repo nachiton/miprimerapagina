@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi primer Website</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <header>
+        <div class="container-nav">
+            <nav class="navbar" role="navigation">
+              <a href="#" class="brand">Mi página web</a>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+          </div>
+        </header>
+        <div class="container">
+            <h1>Bienvenidos a mi primer Website!</h1>
+            <button onclick="showAlert()">¡Haz click aquí</button>
+            <button>Ignora este botón</button>
+            <button>Botón de 3ra. columna</button>
+            <div class="row">
+                <div class="column">
+                    <p>Soy <strong>Nacho</strong>, ¡y esta es mi primera página web!</p>
+                    <p><strong>Estoy aprendiendo desarrolo web para crea sitios web <br />
+                    visualmente atrapantes y funcionales.</strong></p>
+                </div>    
+                <div class="column">
+                    <h2>¿Qué aprenderemos?</h2>
+                    <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. <br />
+                    Estos lenguajes me ayudarán a crear una base sólida en desarrollo web front-end</p>
+                    Texto de prueba sin etiqueta de parrafo.
+                    <h2>La próxima será mejor</h2>
+                        <h2>Espero...</h2>
+                </div>            
+            </div>    
+        </div>
+        <script src="script.js">
+        </script>
+        <form id="formEmail">
+            <label for="email">Correo electrónico: </label>
+            <input type="email" id="email" name="email" required="required">
+            <button type="submit">Enviar</button>
+        </form>        
+    </body>
+</html>
